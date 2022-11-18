@@ -1,24 +1,33 @@
-.body1 {
+.bold{
+    padding-bottom: 10px;
+}
+.text{
     text-align: center;
-    height: -150px;
-   
-}
-.both {
-    border: 3px solid white;
-    border-width: 200px 1.25em;
+    margin:0 auto;
 
-    
 }
-.title {
-    font-size: 150%;
+
+body{
+    display:grid;
+    place-items: center;
+    background-color: hsl(212,45%,89%);
+    font-size: 15px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.card{
+    background-color:white;
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px;
 }
 img{
-    padding: 20px;
-    width: 250px;
-    display:flex;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-
+    border-radius: 15px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.attribution{
+    margin-top: auto;
 }
